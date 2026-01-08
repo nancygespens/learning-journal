@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Journal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="img/header/logo.png" class="logo-img" alt="logo">
+                <h2>My learning journal</h2>
+            </div>
+
+            <!-- Site Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#" id="home-link">Home</a></li>
+                    <li><a href="#" id="about-link">About me</a></li>
+                    <li>
+                        <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+                            ☀️
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Big goals start with <strong>small steps</strong> — and a lot of <strong>stubborn curiosity</strong></h1>
+            <span class="beta-text">Copyright ©2026</span>
+            <img src="images/intro_pic.png" alt="intro_picture" class="top-pic">
+        </section>
+
+        <section class="posts container">
+
+            <!-- HOME PAGE CONTENT -->
+            <div id="home-page">
+                <!-- HERO -->
+                <section id="hero-post" class="hero-post"
+                    style="background-image: url('img/main/altumcode-dC6Pb2JdAqs-unsplash.jpg');">
+                    <div class="container-hero">
+                        <p class="post-date">JAN 5, 2026</p>
+                        <h2 class="post-title">My Tech Journey: Curiosity, Code, and a Lot of Trial & Error</h2>
+                        <p class="post-content">This journal is a place where I document my path through frontend, full stack, and everything in between. Some days are about small wins, some about confusing bugs — but all of them move me forward.</p>
+                    </div>
+                </section>
+
+                <!-- Recent posts -->
+                <section id="recent-posts-container" class="recent-posts">
+                    <h2>Recent Posts</h2>
+                    <div id="recent-posts-grid" class="recent-posts-grid">
+                        <article class="blog-card" data-id="1">
+                            <img src="images/post-img-01.jpg" alt="Post 1" class="blog-card-img">
+                            <div class="blog-card-content">
+                                <p class="post-date">JAN 2, 2026</p>
+                                <h3 class="post-title">Learning to Trust the Process</h3>
+                                <p class="post-content">Progress in tech isn’t always loud or obvious. Sometimes it’s just understanding one concept better than yesterday — and realizing that’s already a win.</p>
+                            </div>
+                        </article>
+
+                        <article class="blog-card" data-id="2">
+                            <img src="images/post-img-02.jpg" alt="Post 2" class="blog-card-img">
+                            <div class="blog-card-content">
+                                <p class="post-date">DEC 28, 2025</p>
+                                <h3 class="post-title">Where Logic Meets Visual Chaos</h3>
+                                <p class="post-content">Frontend development feels like balancing structure and creativity. One moment you’re aligning pixels, the next — questioning why a div refuses to behave.</p>
+                            </div>
+                        </article>
+
+                        <article class="blog-card" data-id="3">
+                            <img src="images/post-img-03.jpg" alt="Post 3" class="blog-card-img">
+                            <div class="blog-card-content">
+                                <p class="post-date">DEC 20, 2025</p>
+                                <h3 class="post-title">Small Projects, Big Confidence</h3>
+                                <p class="post-content">Every small project teaches me something new — not just about code, but about patience, problem-solving, and trusting myself a bit more each time.</p>
+                            </div>
+                        </article>
+
+                        <!-- View More Button placed here after 3rd post -->
+                        <button id="view-more-btn" class="view-more-btn">View More</button>
+
+                        <article class="blog-card hidden-post" data-id="4">
+                            <img src="images/post-img-04.jpg" alt="Post 4" class="blog-card-img">
+                            <div class="blog-card-content">
+                                <p class="post-date">DEC 12, 2025</p>
+                                <h3 class="post-title">When Things Finally Click</h3>
+                                <p class="post-content">There’s a special kind of joy when concepts suddenly make sense. It doesn’t happen instantly — but when it does, it’s worth every struggle.</p>
+                            </div>
+                        </article>
+
+                        <article class="blog-card hidden-post" data-id="5">
+                            <img src="images/post-img-05.jpg" alt="Post 5" class="blog-card-img">
+                            <div class="blog-card-content">
+                                <p class="post-date">DEC 5, 2025</p>
+                                <h3 class="post-title">Debugging My Way Forward</h3>
+                                <p class="post-content">Debugging taught me more than writing code ever did. It’s basically problem-solving with emotional side effects — but also very satisfying.</p>
+                            </div>
+                        </article>
+
+                        <article class="blog-card hidden-post" data-id="6">
+                            <img src="images/post-img-06.jpg" alt="Post 6" class="blog-card-img">
+                            <div class="blog-card-content">
+                                <p class="post-date">NOV 28, 2025</p>
+                                <h3 class="post-title">Still Learning, Still Curious</h3>
+                                <p class="post-content">I don’t aim to know everything — I aim to keep learning. Curiosity is my main tool, and it hasn’t failed me yet.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ABOUT ME PAGE CONTENT -->
+            <div id="about-me-page" class="about-me" style="display: none;">
+                <div class="about-me-container">
+                    <div class="about-me-content">
+                        <img src="./img/main/profile.jpg" alt="portrait" class="about-me-img">
+                        <div class="about-me-text">
+                            <h2>Hi! I’m Anastasia — welcome to my learning journal.</h2>
+                            <p>I’m a designer and illustrator with years of creative experience, slowly and stubbornly moving deeper into the world of development. I like understanding how things work — visually, logically, and sometimes the hard way.</p>
+                            <p>This journal is my space to reflect, experiment, and grow. I write about progress, confusion, breakthroughs, and everything in between — because learning isn’t linear, and that’s what makes it interesting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="toggle.js"></script>
+
+</body>
+
+</html>
