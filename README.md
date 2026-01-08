@@ -1,6 +1,6 @@
 # Learning Journal
 
-[![Demo](https://github.com/user-attachments/assets/782870bc-97b0-479d-83de-0d76dc388b06)](https://dashing-pasca-43e811.netlify.app/)
+[![Demo](https://github.com/user-attachments/assets/782870bc-97b0-479d-83de-0d76dc388b06)](https://sparkling-faloodeh-cece3f.netlify.app)
 
 
 
