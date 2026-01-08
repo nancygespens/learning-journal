@@ -186,7 +186,7 @@ li {
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     color: #fff;
@@ -194,7 +194,7 @@ li {
     background-size: cover;
     background-position: center;
     padding: 2em;
-    min-height: calc(100vh - 90px);
+    min-height: 150px;
 }
 
 /* Main Content Container */
