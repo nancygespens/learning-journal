@@ -1,10 +1,10 @@
 # Learning Journal
 
-![Demo]
+[![Demo](https://github.com/user-attachments/assets/782870bc-97b0-479d-83de-0d76dc388b06)](https://dashing-pasca-43e811.netlify.app/)
+
+
 
 > Click the image to view the demo. The link will open in the current tab (press `Ctrl + Click` or `Cmd + Click` to open in a new tab).
-
-
 
 ## Description
 
